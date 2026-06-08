@@ -9,6 +9,13 @@ body{
     background:Lightblue;
     color: black;
 }
+.project-card {
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
 
 header{
     background:#222;
